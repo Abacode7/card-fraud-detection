@@ -1,0 +1,8 @@
+# Ignore dependencies and build files
+node_modules/* linguist-vendored
+dist/* linguist-vendored
+*.json linguist-generated
+
+# Explicitly set language
+*.ipynb linguist-language=Jupytr
+
